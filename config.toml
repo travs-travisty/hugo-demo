@@ -1,0 +1,55 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'My Hugo Demo'
+theme = 'PaperMod'
+tag = 'tags'
+category = 'categories'
+
+[params]
+
+  [params.homeInfoParams]
+    Title = 'Hello Reader.'
+    Content = 'Welcome to my Hugo demo. Feel free to check out the site and all of its features.'
+
+    [[params.socialIcons]]
+    name = "github"
+    url = "https://www.github.com/"
+
+    [[params.socialIcons]]
+    name = "slack"
+    url = "https://www.slack.com/"
+
+    [[params.socialIcons]]
+    name = "email"
+
+    [[params.socialIcons]]
+    name = "discord"
+    url = "https://www.discord.com/"
+
+    [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/travis404gibson/"
+
+
+  ShowBreadCrumbs = true
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+
+
+    [menu]
+    [[menu.main]]
+      identifier = 'categories'
+      name = 'Categories'
+      url = '/categories/'
+      weight = 10
+    [[menu.main]]
+      identifier = 'tags'
+      name = 'Tags'
+      url = '/tags/'
+      weight = 20
+    [[menu.main]]
+      identifier = 'archives'
+      name = 'Archives'
+      url = '/archives/'
+      weight = 30

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on The Hugo Demo</title>
+    <link>http://example.org/posts/</link>
+    <description>Recent content in Posts on The Hugo Demo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 04 Jul 2022 17:00:03 +0300</lastBuildDate><atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Third</title>
+      <link>http://example.org/posts/third/</link>
+      <pubDate>Mon, 04 Jul 2022 17:00:03 +0300</pubDate>
+      
+      <guid>http://example.org/posts/third/</guid>
+      <description>Title of my new post Another paragraph.</description>
+    </item>
+    
+    <item>
+      <title>Second</title>
+      <link>http://example.org/posts/second/</link>
+      <pubDate>Mon, 04 Jul 2022 16:58:39 +0300</pubDate>
+      
+      <guid>http://example.org/posts/second/</guid>
+      <description>This is a second post Here is text for my post.</description>
+    </item>
+    
+    <item>
+      <title>First</title>
+      <link>http://example.org/posts/first/</link>
+      <pubDate>Mon, 04 Jul 2022 16:45:39 +0300</pubDate>
+      
+      <guid>http://example.org/posts/first/</guid>
+      <description>This is a heading one. This is a heading two. This is a paragraph.</description>
+    </item>
+    
+  </channel>
+</rss>
